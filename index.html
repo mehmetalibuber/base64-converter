@@ -18,20 +18,41 @@
             <textarea rows="20" cols=""></textarea>
         </div>
         <div class="col-lg-6">
-            <img src="" alt="yüklenen görsel">
+            <img src="">
         </div>
 
     </div>
     <style>
+        input {
+            background-color: white;
+            border-radius: 12px;
+            height: auto;
+            padding: 10px;
+        }
+
+        .container {
+            border-radius: 12px;
+        }
+
         .container div:first-child {
             display: flex;
             flex-direction: column;
         }
 
+        .container div:last-child {
+            margin: 5%;
+        }
+
+        textarea {
+            margin-top: 20px;
+            border-radius: 12px;
+        }
+
         img {
-            padding: 5%;
             height: 400px;
             width: 500px;
+            border: 2px solid red;
+            border-radius: 12px;
         }
     </style>
     <script>
